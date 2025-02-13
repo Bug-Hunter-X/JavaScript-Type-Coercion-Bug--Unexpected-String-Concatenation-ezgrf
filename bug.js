@@ -1,0 +1,1 @@
+function foo(a,b){return a+b;}console.log(foo(2,3));//This will return 5console.log(foo(2,"3"));//This will return 23 because javascript performs string concatenation instead of addition when one of the operands is a string. This is a common source of error, especially when dealing with user input or data from external sources.
